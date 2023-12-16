@@ -4,6 +4,7 @@ import Journey from "../../sections/journey/Journey";
 import Values from "../../sections/values/Values";
 import Achievements from "../../sections/achievements/Achievements"
 import Experience from "../../sections/experience/Experience";
+import Estatein from "../../sections/estatein/Estatein";
 const About = () => {
   return(
       <>
@@ -11,6 +12,7 @@ const About = () => {
       <Values/>
       <Achievements/>
       <Experience/>
+      <Estatein/>
       </>
   ) 
 };
