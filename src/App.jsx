@@ -1,13 +1,22 @@
-import "./App.css";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  createRoutesFromElements,
+  Route,
+} from "react-router-dom";
+import Home from "./pages/Home";
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route>
+      <Route path="/" element={<Home />} />
+    </Route>
+  )
+);
 
 
 function App() {
-  return (
-    <>
-      <h1>Hello World</h1>
-      <p>oddd</p>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
