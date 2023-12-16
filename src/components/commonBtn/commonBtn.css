@@ -2,7 +2,7 @@
 button {
   padding: 14px 20px;
   border: 1px solid #262626;
-  background-color: transparent;
+  background-color: #000;
   color: #fff;
   font-size: 14px;
   font-weight: 500;
@@ -12,6 +12,6 @@ button {
   transition: all linear 0.3s;
 }
 button:hover {
-  background-color: #000;
+  background-color: #703bf7;
 }
 /* ==== Common Button Design End ==== */
