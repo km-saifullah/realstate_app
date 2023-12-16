@@ -8,9 +8,11 @@ const Header = () => {
       <div className="container">
         <div className="header_wrapper">
           <div>
-            <p>✨Discover Your Dream Property with Estatein</p>
-            <div>
-              <a href="#">Learn More</a>
+            <div className="header_info">
+              <p className="header_text">✨Discover Your Dream Property with Estatein</p>
+              <div>
+                <a href="#">Learn More</a>
+              </div>
             </div>
           </div>
 

@@ -1,15 +1,27 @@
 /* ===== Header Design Start===== */
 .header {
   padding: 18px 0;
+  background-image: url("/header_img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1a1a1a;
 }
 .header_wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 480px;
 }
-.header_icon {
+.header_info {
   display: flex;
   align-items: center;
-  column-gap: 720px;
+  justify-content: center;
+  column-gap: 10px;
+}
+.header_text {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
 }
 /* ===== Header Design End===== */
