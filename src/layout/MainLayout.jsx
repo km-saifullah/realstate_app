@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 import Header from "../sections/header/Header";
+import Copyright from "./Copyright";
 
 const MainLayout = () => {
   return (
@@ -11,6 +12,7 @@ const MainLayout = () => {
       <Navbar />
       <Outlet />
       <Footer />
+      <Copyright />
     </>
   );
 };
