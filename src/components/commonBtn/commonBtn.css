@@ -1,0 +1,17 @@
+/* ==== Common Button Design Start ==== */
+button {
+  padding: 14px 20px;
+  border: 1px solid #262626;
+  background-color: transparent;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all linear 0.3s;
+}
+button:hover {
+  background-color: #000;
+}
+/* ==== Common Button Design End ==== */
