@@ -38,6 +38,7 @@ const Values = () => {
                          <h5>Our Commitment</h5>
                     </div>
                      <p>We are dedicated to providing you with the highest level of service, professionalism, and support.</p>
+                     <p>Hello world</p>
                  </div>
                </div>
            </div>
