@@ -1,0 +1,108 @@
+.propertyDiscribtion{
+    background-color: #141414;
+    color: #FFF;
+    padding: 30px 0;
+}
+.propertyDiscribtion_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.propertyDiscribtion .discribtion{
+    width: 784px;
+    height: 375px;
+    padding: 50px;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    position: relative;
+}
+
+.propertyDiscribtion .discribtion::after{
+    position: absolute;
+    content: "";
+    bottom: 166px;
+    left: 46px;
+    width: 683px;
+    height: 2px;
+    background-color: #262626;
+
+}
+.propertyDiscribtion .discribtion .headline h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.propertyDiscribtion .discribtion .headline p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #999999;
+}
+
+.propertydicDrisc{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+
+}
+
+.room_details{
+    margin-top: 50px;
+    position: relative;
+}
+ .room_details::after{
+    height: 100%;
+    width: 2px;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -39px;
+    background-color: #262626;
+}
+.room_details .card{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.room_details .icon{
+    color: #999999;
+    font-size: 24px;
+}
+
+ .room_details p{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+
+.keyFeatures{
+    width: 783px;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.featureList{
+    padding: 50px 0;
+}
+.featureList .listType{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(48, 47, 47) 0%, rgba(153,153,153,0) 82%);
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-left: 4px solid #a333ff;
+}
+.featureList .listType .icon{
+    font-size: 24px;
+    margin: 0 10px;
+}
+.featureList .listType p{
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 150%;
+    color: #999999;
+}
