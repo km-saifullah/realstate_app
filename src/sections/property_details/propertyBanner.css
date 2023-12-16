@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1596px;
+    margin: 0 auto;
+}
+
+.property_banner{
+    background-color: #141414;
+    color: #FFF;
+}
+
+
+.seaside_villa{
+    padding: 120px 0 150px 0;
+    font-family: 'Urbanist', sans-serif;
+}
+.seaside_villa .header{
+    display: flex;
+}
+
+.headerVila{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.header_main{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.header_main h2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.header_main .locaton{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 10px 10px;
+
+}
+.header_main .locaton p{
+    font-size: 18px;
+    line-height: 150pxx;
+}
+ 
+.header .header_price p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #444444;
+    line-height: 150%;
+}
+
+.img_section{
+    background-color: #262626;
+    padding: 50px;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+}
+
+.img_section .img_selection{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #141414;
+    padding: 15px 0;
+    margin-bottom: 50px;
+}
+
+.img_section .img_selection img{
+    border-radius: 10px;
+    border: none;
+    height: 94px;
+    width: 144px;
+    object-fit: cover;
+}
+.img_section .main_img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img_section .main_img img{
+    border-radius: 10px;
+    width: 733px;
+    height: 583px;
+    overflow: hidden;
+    object-fit: cover;
+
+}
+
+.img_section .angel{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+} 
+
+.img_section .angel .angel_main{
+    background-color: #141414;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    padding: 10px 20px;
+    border-radius: 55px;
+}

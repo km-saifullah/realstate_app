@@ -1,6 +1,4 @@
 import React from 'react'
-import './propertyBanner.css'
-import '../../../src/index.css'
 import { FaLocationDot } from "react-icons/fa6";
 
 const PropertyBanner = () => {
