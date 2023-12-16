@@ -1,20 +1,8 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    width: 1596px;
-    margin: 0 auto;
-}
 
 .property_banner{
     background-color: #141414;
     color: #FFF;
 }
-
-
 .seaside_villa{
     padding: 120px 0 150px 0;
     font-family: 'Urbanist', sans-serif;
@@ -22,7 +10,6 @@
 .seaside_villa .header{
     display: flex;
 }
-
 .header{
     display: flex;
     justify-content: space-between;
