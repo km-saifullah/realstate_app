@@ -1,12 +1,8 @@
-import React from 'react'
-import PropertyBanner from '../../component/property_details/PropertyBanner'
+import React from "react";
+import PropertyBanner from "../../components/property_details/PropertyBanner";
 
-const propertydetails = () => {
-  return (
-    <>
-      <PropertyBanner/>
-    </>
-  )
-}
+const Propertydetails = () => {
+  return <PropertyBanner />;
+};
 
-export default propertydetails
+export default Propertydetails;
