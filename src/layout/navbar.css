@@ -1,0 +1,23 @@
+/* ===== Navbar Design Start ===== */
+.navbar {
+  background-color: #1a1a1a;
+  padding: 18px 0;
+}
+.nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  column-gap: 48px;
+}
+.nav_link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  transition: all linear 0.3s;
+}
+/* ===== Navbar Design End ===== */

@@ -11,13 +11,13 @@ const Header = () => {
             <div className="header_info">
               <p className="header_text">✨Discover Your Dream Property with Estatein</p>
               <div>
-                <a href="#">Learn More</a>
+                <a className="header_link" href="#">Learn More</a>
               </div>
             </div>
           </div>
 
           <div className="header_icon">
-            <MdOutlineCancel />
+            <MdOutlineCancel className="header_icon" />
           </div>
         </div>
       </div>
