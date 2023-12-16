@@ -11,14 +11,13 @@ import Properties from "./pages/properties/Properties";
 import PropertyDetails from "./pages/property_details/PropertyDetails";
 import MainLayout from "./layout/MainLayout";
 
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<MainLayout/>}>
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/properties" element={<Properties/>}/>
-      <Route path="/propertydetails" element={<PropertyDetails/>}/>
+      <Route path="/properties" element={<Properties />} />
+      <Route path="/propertydetails" element={<PropertyDetails />} />
       <Route path="/about" element={<About />} />
     </Route>
   )
