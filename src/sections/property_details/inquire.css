@@ -1,0 +1,96 @@
+
+.inquire_seaVila{
+    background-color: #141414;
+    color: #FFF;
+}
+.inquire_seaVilaWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 300px 0 150px 0;
+}
+.inquire_disc{
+    width: 520px;
+}
+
+.inquire_disc h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 150%;
+}
+.inquire_disc p{
+    color: #999999;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.inquire_forum{
+    font-size: 20px;
+    width: 985px;
+    padding: 50px;
+    border: 3px solid #191919;
+    border-radius: 10px;
+}
+.personal_info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.personal_info .info_form{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.personal_info .info_form input{
+    width: 420px;
+    padding: 10px 5px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #191919;
+    border: none;
+    outline: none;
+    color: #FFF;
+}
+
+.property_massage .property_location{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.property_massage .property_location input{
+    padding: 10px 5px;
+    font-size: 20px;
+    background-color: #191919;
+    border: none;
+    outline: none;
+    color: #FFF;
+    margin-top: 10px;
+
+}
+
+.property_massage .massage{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.property_massage .massage textarea{
+    background-color: #191919;
+    border: none;
+    outline: none;
+    color: #FFF;
+    height: 170px;
+    margin-top: 10px;
+}
+.input_conditionCheck label{
+    padding-left: 10px;
+}
+.inquire_condition{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
