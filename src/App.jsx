@@ -9,11 +9,12 @@ import Contact from "./pages/contact/Contact";
 import About from "./pages/about/About";
 import Properties from "./pages/properties/Properties";
 import PropertyDetails from "./pages/property_details/PropertyDetails";
+import MainLayout from "./layout/MainLayout";
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route>
+    <Route element={<MainLayout/>}>
       <Route path="/" element={<Home />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/properties" element={<Properties/>}/>
