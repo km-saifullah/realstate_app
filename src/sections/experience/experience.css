@@ -1,0 +1,65 @@
+.experience{
+    padding: 120px;
+}
+.experience-wrapper h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Urbanist", sans-serif;
+    text-transform: capitalize;
+    color: white;
+    line-height: 72px;
+}
+.experience-wrapper p{
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    line-height: 27px;
+    padding-bottom: 60px;
+}
+.experience-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.experience-item .item{
+    width: 507px;
+    height: 280px;
+    padding: 20px 20px;
+    border: 2px solid rgba(95, 69, 69, 0.342);
+
+}
+
+.experience-item .item h5{
+    font-weight: 500;
+    font-size: 16px;
+    color: wheat;
+    font-family: "Urbanist", sans-serif;
+    text-transform: capitalize;
+
+}
+.experience-item .item p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Urbanist", sans-serif;
+    color: white;
+    text-transform: capitalize;
+    line-height: 35px;
+
+}
+.experience-item .item h4{
+ font-size: 30px;
+ font-weight: 600;
+ font-family: "Urbanist", sans-serif;
+ color: white;
+ text-transform: capitalize;
+ line-height: 20px;
+}
