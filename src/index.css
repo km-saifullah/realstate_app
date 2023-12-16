@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
 }
 ul,
 ol {
@@ -25,4 +26,9 @@ p {
 .container {
   width: 1596px;
   margin: 0 auto;
+}
+.active {
+  padding: 12px 20px;
+  background-color: #000;
+  border-radius: 8px;
 }
