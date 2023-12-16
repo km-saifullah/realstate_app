@@ -1,11 +1,7 @@
-*{
-    background-color: #262626;
-}
 
 .values{
     padding: 150px;
 }
-
 .values-wrapper{
     display: flex;
     gap: 80px;
@@ -32,7 +28,6 @@
     line-height: 40px;
     width: 517px;
 }
-
 .values-item{
     display: flex;
     flex-wrap: wrap;
