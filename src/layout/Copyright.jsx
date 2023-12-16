@@ -1,6 +1,6 @@
 import React from "react";
 import { CgFacebook } from "react-icons/cg";
-import { IoLogoLinkedin } from "react-icons/io";
+import { IoLogoLinkedin } from "react-icons/io5";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import "./copyright.css";
