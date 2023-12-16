@@ -1,6 +1,7 @@
 
 .values{
     padding: 150px;
+    background-color: #292929;
 }
 .values-wrapper{
     display: flex;
