@@ -19,9 +19,21 @@
   justify-content: center;
   column-gap: 10px;
 }
-.header_text {
+.header_text,
+.header_link {
   color: #ffffff;
   font-size: 14px;
   font-weight: 500;
+  line-height: 150%;
+  font-family: "Urbanist", sans-serif;
+  transition: all linear 0.3s;
+}
+.header_link:hover {
+  text-decoration: underline;
+}
+.header_icon {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
 }
 /* ===== Header Design End===== */
