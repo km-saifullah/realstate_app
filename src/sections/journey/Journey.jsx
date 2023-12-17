@@ -21,7 +21,7 @@ const Journey = () => {
                </div>   
               </div>
               <div className="journey-images">
-                 <img src="./public/about_banner.jpg" alt="not found"/>
+                 <img src="/about_banner.jpg" alt="not found"/>
               </div>
          </div>
     </div>
