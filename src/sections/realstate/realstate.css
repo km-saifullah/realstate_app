@@ -1,0 +1,58 @@
+/* ===== Real State Journey Design Start ===== */
+.realstate_journey {
+  padding: 100px 0;
+  background-color: #141414;
+  position: relative;
+}
+.realstate_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.realstate_info {
+  width: 1154px;
+  display: flex;
+  row-gap: 15px;
+  flex-direction: column;
+}
+.realstate_info h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.realstate_info p {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.pattern1 {
+  width: 566px;
+  height: 308px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.pattern1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pattern2 {
+  width: 566px;
+  height: 308px;
+  position: absolute;
+ right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.pattern2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* ===== Real State Journey Design End ===== */
