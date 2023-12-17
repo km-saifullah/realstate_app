@@ -1,0 +1,42 @@
+.pricingDetails{
+    background-color: #141414;
+    color: #FFF;
+}
+
+.pricingDetials_headder h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 150%; 
+}
+
+.pricingDetials_headder p{
+    width: 1296px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 14px 0 80px 0;
+    color: #999999;
+}
+
+.pricingDetails_note{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    background-color: #191919;
+    padding: 30px 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.pricingDetails_note h2{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.pricingDetails_note p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #999999;
+}
+
