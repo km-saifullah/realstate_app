@@ -1,0 +1,94 @@
+/* ===== Clients Saying Design Start ==== */
+.clients_section {
+  padding: 110px 0;
+}
+.clients_deatils {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.clients_info {
+  width: 1182px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.clients_title {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.clients_msg {
+  color: #999;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.clients_review {
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review_item {
+  width: 512px;
+  padding: 50px;
+  border: 1px solid #262626;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+.review_icon {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.star_div {
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #ffe500;
+}
+.review_details {
+  padding: 40px 0;
+}
+.review_heading {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.review_message {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 14px 0 40px 0;
+  height: 108px;
+}
+.review_info {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.reviewer_name {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.reviewer_address {
+  color: #999;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+/* ===== Clients Saying Design End ==== */

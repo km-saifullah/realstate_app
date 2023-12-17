@@ -11,6 +11,7 @@ import { FaArrowLeft } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
 import { MdOutlineHolidayVillage } from "react-icons/md";
 import "./featuredProperties.css";
+import ClientsSaying from "../clientsSaying/ClientsSaying";
 
 const FeaturedProperties = () => {
   return (
@@ -150,6 +151,7 @@ const FeaturedProperties = () => {
               </div>
             </div>
           </div>
+          <ClientsSaying />
         </div>
       </div>
     </section>
