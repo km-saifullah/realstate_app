@@ -1,0 +1,133 @@
+
+.corporation{
+    padding: 100px 0;
+    background-color:#262626;
+}
+.corporation-title h3{
+     font-size: 38px;
+     font-weight: 600;
+     line-height: 57px;
+     font-family: "Urbanist", sans-serif;
+     color: white;
+     padding-bottom: 10px;
+}
+.corporation-title p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #999999;
+    text-transform: capitalize;
+    font-family: "Urbanist", sans-serif;
+    line-height: 24px;
+    padding-bottom: 60px;
+}
+
+.from-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.from-count{
+    width: 773px;
+    padding: 50px;
+    border: 2px solid rgba(122, 112, 112, 0.185);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.from-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.from-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.from-item h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #999999;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+}
+.from-item h3{
+    font-size: 24px;
+    line-height: 36px;
+    color:#fff;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    padding-bottom: 40px;
+}
+.from-icon{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.from-icon-one{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.from-icon-one h5{
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Urbanist', sans-serif;
+  color: #fff;
+}
+.from-icon-one h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    color: #fff;
+  }
+  .from-icon-two{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+.from-icon-two h5{
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-family: 'Urbanist', sans-serif;
+  color: #fff;
+}
+
+.from-icon-two h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    color: #fff;
+  }
+
+  .from-para{
+    margin-top: 40px;
+    width: 600px;
+    border: 2px solid rgba(82, 75, 75, 0.123);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+  }
+  .from-para h5{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    color: #999999;
+    padding: 18px 10px;
+  }
+  .from-para p{
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    line-height: 21px;
+    color: #fff;
+    padding: 20px 15px;
+  }
