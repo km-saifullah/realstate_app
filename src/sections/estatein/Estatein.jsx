@@ -1,5 +1,7 @@
 import React from "react";
 import { FaTelegram } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
+
 import "./estatein.css";
 const Estatein = () => {
   return (
@@ -20,6 +22,9 @@ const Estatein = () => {
                 <img src="/clientre.png" alt="not found" />
                 <h4>Max Mitchell</h4>
                 <h6>Founder</h6>
+                <div className="box">
+                    <FaTwitter className="twitter"/>
+                </div>
               </div>
                <div className="icon">
                   <h5>Say Hello 👋</h5>
@@ -31,6 +36,12 @@ const Estatein = () => {
                 <img src="/clientd.png" alt="not found" />
                 <h4>Sarah Johnson</h4>
                 <h6>Chief Real Estate Officer</h6>
+                <div className="box">
+                    <FaTwitter className="twitter"/>
+                </div>
+                <div className="box">
+                    <FaTwitter className="twitter"/>
+                </div>
               </div>
               <div className="icon">
                   <h5>Say Hello 👋</h5>
@@ -42,6 +53,9 @@ const Estatein = () => {
                 <img src="/client.png" alt="not found" />
                 <h4>David Brown</h4>
                 <h6>Head of Property Management</h6>
+                <div className="box">
+                    <FaTwitter className="twitter"/>
+                </div>
               </div>
               <div className="icon">
                   <h5>Say Hello 👋</h5>
@@ -53,6 +67,9 @@ const Estatein = () => {
                 <img src="/clients.png" alt="not found" />
                 <h4>Michael Turner</h4>
                 <h6>Legal Counsel</h6>
+                <div className="box">
+                    <FaTwitter className="twitter"/>
+                </div>
               </div>
               <div className="icon">
                   <h5>Say Hello 👋</h5>

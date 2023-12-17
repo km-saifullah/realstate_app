@@ -38,6 +38,7 @@
 .images{
     width: 315px;
     height: 250px;
+    position: relative;
 }
 .images img{
     width: 100%;
@@ -62,7 +63,25 @@
     text-transform: capitalize;
     text-align: center;
 }
-
+.images .box{
+    position: absolute;
+    width: 76px;
+    height: 52px;
+    top: 215px;
+    left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 40%;
+}
+.images .box .twitter{
+    width: 32px;
+    height: 20px;
+    color: #fff;
+    font-size: 32px;
+}
 .images-items .icon{
    display: flex;
    justify-content: space-between;
