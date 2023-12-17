@@ -1,0 +1,28 @@
+.investment{
+  background-color: #262626;
+  padding: 100px 0;
+}
+.investment-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.investment-item h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    padding-bottom: 25px;
+}
+.investment-item p{
+    font-size: 18px;
+    font-weight: 500;
+    width: 1000px;
+    line-height: 27px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+    padding: 15px 0;
+}

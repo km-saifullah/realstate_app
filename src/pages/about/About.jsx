@@ -6,6 +6,7 @@ import Achievements from "../../sections/achievements/Achievements"
 import Experience from "../../sections/experience/Experience";
 import Estatein from "../../sections/estatein/Estatein";
 import Corporation from "../../sections/corporation/Corporation";
+import Investment from "../../sections/investment/Investment";
 const About = () => {
   return(
       <>
@@ -15,6 +16,7 @@ const About = () => {
       <Experience/>
       <Estatein/>
        <Corporation/>
+       <Investment/>
       </>
   ) 
 };
