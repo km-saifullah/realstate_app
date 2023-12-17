@@ -27,7 +27,7 @@ const PropertyBanner = () => {
                         <img src="/PP_img_1.jpg" alt="" />
                         <img src="/PP_img_2.jpg" alt="" />
                         <img src="/PP_img_3.png" alt="" />
-                        <img src="public/PP_img_4.png" alt="" />
+                        <img src="/PP_img_4.png" alt="" />
                         <img src="/PP_img_5.png" alt="" />
                         <img src="/PP_img_6.png" alt="" />
                         <img src="/PP_img_7.png" alt="" />
