@@ -21,10 +21,10 @@ const Estatein = () => {
                 <h4>Max Mitchell</h4>
                 <h6>Founder</h6>
               </div>
-              <div className="icon">
-                <p>Say Hello </p>
-                <FaTelegram className="i" />
-              </div>
+               <div className="icon">
+                  <h5>Say Hello 👋</h5>
+                  <FaTelegram className="i" />
+               </div>
             </div>
             <div className="images-items">
               <div className="images">
@@ -33,9 +33,9 @@ const Estatein = () => {
                 <h6>Chief Real Estate Officer</h6>
               </div>
               <div className="icon">
-                <p>Say Hello </p>
-                <FaTelegram className="i" />
-              </div>
+                  <h5>Say Hello 👋</h5>
+                  <FaTelegram className="i" />
+               </div>
             </div>
             <div className="images-items">
               <div className="images">
@@ -44,9 +44,9 @@ const Estatein = () => {
                 <h6>Head of Property Management</h6>
               </div>
               <div className="icon">
-                <p>Say Hello </p>
-                <FaTelegram className="i" />
-              </div>
+                  <h5>Say Hello 👋</h5>
+                  <FaTelegram className="i" />
+               </div>
             </div>
             <div className="images-items">
               <div className="images">
@@ -55,9 +55,9 @@ const Estatein = () => {
                 <h6>Legal Counsel</h6>
               </div>
               <div className="icon">
-                <p>Say Hello </p>
-                <FaTelegram className="i" />
-              </div>
+                  <h5>Say Hello 👋</h5>
+                  <FaTelegram className="i" />
+               </div>
             </div>
           </div>
         </div>
