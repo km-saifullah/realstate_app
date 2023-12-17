@@ -1,0 +1,138 @@
+/* ===== Featured Section Design Start */
+.multiSection {
+  background-color: #141414;
+  padding: 110px 0;
+}
+.featured_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.featured_text {
+  width: 1200px;
+}
+.featured_text h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.featured_text p {
+  color: #4d4d4d;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  padding-top: 5px;
+}
+.property_details {
+  display: flex;
+  column-gap: 30px;
+}
+.property_item {
+  padding: 40px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+}
+.property_itemtext {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  padding: 30px 0 6px 0;
+}
+.property_item-text {
+  width: 430px;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  padding-bottom: 30px;
+}
+.read_more {
+  color: #fff;
+}
+.featured_icons {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.icons_item {
+  padding: 8px 14px;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  border-radius: 28px;
+  display: flex;
+  column-gap: 5px;
+}
+.featured_icon {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+}
+.icon_text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.property_priceBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0 0 0;
+}
+.item_title {
+  color: #666666;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.item_price {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.line_count {
+  padding-top: 50px;
+}
+.line_border {
+  border: 1px solid #262626;
+}
+.slide_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.slide_count-text {
+  color: #999;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.count_text {
+  color: #fff;
+}
+.slide_icon {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.icon_wrap {
+  background-color: #262626;
+  color: #808080;
+  height: 58px;
+  width: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+}
+.right_arrow {
+  color: #fff;
+}
+/* ===== Featured Section Design End */
