@@ -1,6 +1,8 @@
 import React from "react";
 import CommonBtn from "../../../components/commonBtn/CommonBtn";
 import { FaStar } from "react-icons/fa6";
+import { FaArrowLeft } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
 import Image from "../../../components/img/Image";
 import profile1 from "/profile1.png";
 import profile2 from "/profile2.png";
@@ -11,6 +13,7 @@ const ClientsSaying = () => {
   return (
     <div className="clients_section">
       <div className="clients_wrapper">
+        <img src="/starIcon.png" alt="" />
         <div className="clients_deatils">
           <div className="clients_info">
             <h3 className="clients_title">What Our Clients Say</h3>
@@ -130,6 +133,24 @@ const ClientsSaying = () => {
               <div>
                 <h5 className="reviewer_name">John Mans</h5>
                 <p className="reviewer_address">USA, Nevada</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="line_count">
+          <hr className="line_border" />
+          <div className="slide_wrapper">
+            <div className="slide_count">
+              <p className="slide_count-text">
+                <span className="count_text">01</span> of 60
+              </p>
+            </div>
+            <div className="slide_icon">
+              <div className="icon_wrap">
+                <FaArrowLeft />
+              </div>
+              <div className="icon_wrap">
+                <FaArrowRight className="right_arrow" />
               </div>
             </div>
           </div>

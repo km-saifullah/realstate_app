@@ -12,11 +12,13 @@ import { FaArrowRight } from "react-icons/fa6";
 import { MdOutlineHolidayVillage } from "react-icons/md";
 import "./featuredProperties.css";
 import ClientsSaying from "../clientsSaying/ClientsSaying";
+import Faq from "../faq/Faq";
 
 const FeaturedProperties = () => {
   return (
     <section className="multiSection">
       <div className="container">
+        <img src="/starIcon.png" alt="" />
         <div className="featured_wrapper">
           <div className="featured_info">
             <div className="featured_text">
@@ -152,6 +154,7 @@ const FeaturedProperties = () => {
             </div>
           </div>
           <ClientsSaying />
+          <Faq />
         </div>
       </div>
     </section>

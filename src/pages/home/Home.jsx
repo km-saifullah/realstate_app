@@ -6,7 +6,7 @@ import RealState from "../../sections/realstate/RealState";
 import FeaturedProperties from "../../sections/featuresProperties/featured/FeaturedProperties";
 
 const Home = () => {
-  return (
+  return ( 
     <>
       <Banner />
       <Service />

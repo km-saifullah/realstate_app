@@ -1,7 +1,7 @@
 /* ===== Featured Section Design Start */
 .multiSection {
   background-color: #141414;
-  padding: 110px 0;
+  padding: 110px 0 0 0;
 }
 .featured_info {
   display: flex;

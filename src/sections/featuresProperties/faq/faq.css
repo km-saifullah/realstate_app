@@ -1,0 +1,58 @@
+/* ==== FAQ Design Start ==== */
+.faq_section {
+  padding: 110px 0;
+}
+.faq_wrapper {
+  display: flex;
+  row-gap: 80px;
+  flex-direction: column;
+}
+.faq_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 200px;
+}
+.faq_headin-text {
+  width: 1236px;
+}
+.faq_heading {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  padding-bottom: 14px;
+}
+.faq_text {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.faq_details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.faq_item {
+  background-color: #141414;
+  border: 1px solid #262626;
+  padding: 50px;
+  width: 512px;
+  border-radius: 12px;
+}
+.faq_item_heading {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  height: 54px;
+}
+.faq_item_text {
+  color: #999;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  padding: 30px 0;
+}
+/* ==== FAQ Design End ==== */
