@@ -45,6 +45,9 @@ const Banner = () => {
               altText="Banner Image"
             />
           </div>
+          <div className="banner_shape">
+            <img src="/banner_shape.png" alt="" />
+          </div>
         </div>
       </div>
     </section>
