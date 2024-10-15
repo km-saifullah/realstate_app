@@ -23,3 +23,6 @@ This is a realstate app where you can find out different sections regarding real
 <a href="https://github.com/mizanurrrahaman">
   <img src="https://avatars.githubusercontent.com/u/146084384?v=4" title="Murad Hossain Chowdhury" alt="Not Found" style="height:60px;width:60px;border-radius:50%;" />
 </a>
+<a href="https://github.com/dohabristy">
+  <img src="https://avatars.githubusercontent.com/u/146329970?v=4" title="Doha Bristy" alt="Not Found" style="height:60px;width:60px;border-radius:50%;" />
+</a>
