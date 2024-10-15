@@ -1,0 +1,46 @@
+.properties {
+  background: #262626;
+  padding-bottom: 50px;
+}
+.properties-heading {
+  padding: 150px 0 108px 0;
+}
+.properties-heading h2 {
+  color: #fff;
+  padding-bottom: 14px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.properties-heading p {
+  width: 1358px;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.serach-field {
+  width: 1021px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  background-color: #141414;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.serach-field input {
+  width: 85%;
+  padding: 15px 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #666666;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.find-property-btn {
+  width: 10%;
+}
