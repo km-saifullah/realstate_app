@@ -1,6 +1,6 @@
 .experience{
     padding: 120px;
-    background-color: #292929;
+    background-color: #141414;
 }
 .experience-wrapper h2{
     font-size: 48px;
@@ -27,15 +27,13 @@
 
 }
 .item{
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    display: block;
+    padding: 5px 0;
 }
 .experience-item .item{
     width: 507px;
     height: 280px;
     padding: 20px 20px;
-    border: 2px solid rgba(95, 69, 69, 0.342);
 
 }
 
@@ -45,6 +43,8 @@
     color: wheat;
     font-family: "Urbanist", sans-serif;
     text-transform: capitalize;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #35216b;
 
 }
 .experience-item .item p{
@@ -53,7 +53,8 @@
     font-family: "Urbanist", sans-serif;
     color: white;
     text-transform: capitalize;
-    line-height: 35px;
+    line-height: 25px;
+    margin: 10px 0;
 
 }
 .experience-item .item h4{
@@ -62,5 +63,6 @@
  font-family: "Urbanist", sans-serif;
  color: white;
  text-transform: capitalize;
- line-height: 20px;
+ /* line-height: 20px; */
+ margin: 25px 0;
 }

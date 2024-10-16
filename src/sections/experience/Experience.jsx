@@ -10,32 +10,32 @@ const Experience = () => {
            </div>
            <div className="experience-item">
              <div className="item">
-                 <h5>Step 01</h5> 
+                  <h5>Step 01</h5> 
+                  <h4> Discover a World of Possibilities</h4> 
+                  <p>Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.</p>
+             </div>
+             <div className="item">
+                 <h5>Step 02</h5> 
                 <h4> Discover a World of Possibilities</h4> 
                 <p>Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.</p>
              </div>
              <div className="item">
-                 <h5>Step 01</h5> 
+                 <h5>Step 03</h5> 
                 <h4> Discover a World of Possibilities</h4> 
                 <p>Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.</p>
              </div>
              <div className="item">
-                 <h5>Step 01</h5> 
+                 <h5>Step 04</h5> 
                 <h4> Discover a World of Possibilities</h4> 
                 <p>Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.</p>
              </div>
              <div className="item">
-                 <h5>Step 01</h5> 
+                 <h5>Step 05</h5> 
                 <h4> Discover a World of Possibilities</h4> 
                 <p>Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.</p>
              </div>
              <div className="item">
-                 <h5>Step 01</h5> 
-                <h4> Discover a World of Possibilities</h4> 
-                <p>Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.</p>
-             </div>
-             <div className="item">
-                 <h5>Step 01</h5> 
+                 <h5>Step 06</h5> 
                 <h4> Discover a World of Possibilities</h4> 
                 <p>Your journey begins with exploring our carefully curated property listings. Use our intuitive search tools to filter properties based on your preferences, including location, type, size, and budget.</p>
              </div>

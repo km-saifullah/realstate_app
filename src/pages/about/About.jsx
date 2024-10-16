@@ -15,8 +15,8 @@ const About = () => {
       <Achievements/>
       <Experience/>
       <Estatein/>
-       <Corporation/>
-       <Investment/>
+      <Corporation/>
+      <Investment/>
       </>
   ) 
 };
