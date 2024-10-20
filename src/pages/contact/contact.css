@@ -93,3 +93,58 @@
   font-family: urbanist;
   padding-bottom: 80px;
 }
+.form_box {
+  border: 1px solid #1A1A1A;
+  padding: 100px;
+}
+.form-wrap{
+  display: flex;
+  column-gap: 50px;
+  justify-content: center;
+
+}
+.form-wrap  input{
+  background-color: #1A1A1A;
+  border: #262626;
+  width: 430px;
+  height: 68px;
+  border-radius: 8px;
+  padding: 15px;
+  outline: none;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.form-wrap label{
+  color: #fff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 50px;
+}
+.form label{
+  margin-left: 5px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.form_wrapper {
+  row-gap: 50px;
+}
+.massagebox{
+  color: #fff;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+
+}
+.massagebox input{
+  width: 1397px;
+  height: 170px !important;
+  padding: 15px;
+  background-color: #1A1A1A;
+  outline: none;
+}
