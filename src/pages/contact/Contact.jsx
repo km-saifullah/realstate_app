@@ -1,169 +1,160 @@
-import React from "react";
-import "./contact.css";
 
+import "./contact.css"
 const Contact = () => {
   return (
     <>
-      <section id="contact_part-one">
-        <div className="container">
-          <div className="contact_one-wrapper">
-            <h1 className="head">Get in Touch with Estatein</h1>
-            <p className="pera">
-              Welcome to Estatein's Contact Us page. We're here to assist you
-              with any inquiries, requests, or feedback you may have. Whether
-              you're looking to buy or sell a property, explore investment
-              opportunities, or simply want to connect, we're just a message
-              away. Reach out to us, and let's start a conversation.
-            </p>
+      <div className='contact_wrap'>
+        <section id='contact_part_one'>
+          <div className='part_one_wrapper container'>
+              <h3>
+                  Get in Touch with Estatein
+              </h3>
+              <p>Welcome to Estateins Contact Us page. Were here to assist you with any inquiries, requests, or
+              feedback you may have. Whether youre looking to buy or sell a property, explore investment opportunities,
+               or simply want to connect, were just a message away. Reach out to us, and lets start a conversation.</p>
           </div>
-        </div>
-      </section>
-      <section id="contact_part-two">
-        <div className="contact_two-wrapper">
-          <div className="card_box">
-            <div className="img_box">
-              <img src="./images/c-icon01.png" alt="" />
-            </div>
-            <h4 className="sub_head">info@estatein.com</h4>
+        </section>
+        <section id='contact_part_two'>
+          <div className='box-size'>
+            <img src="/mail.png" alt="not found"/>
+            <p>info@estatein.com</p>
+            <img src='/arrow.png' className='arrow'/>
           </div>
-          <div className="card_box">
-            <div className="img_box">
-              <img src="./images/c-icon02.png" alt="" />
-            </div>
-            <h4 className="sub_head">+1 (123) 456-7890</h4>
+          <div className='box-size'>
+            <img src="/call.png" alt="not found"/>
+            <p>+1 (123) 456-7890</p>
+            <img src='/arrow.png' className='arrow'/>
           </div>
-          <div className="card_box">
-            <div className="img_box">
-              <img src="./images/c-icon03.png" alt="" />
-            </div>
-            <h4 className="sub_head">Main Headquarters</h4>
+          <div className='box-size'>
+            <img src="/map.png" alt="not found"/>
+            <p>Main Headquarters</p>
+            <img src='/arrow.png' className='arrow'/>
           </div>
-          <div className="card_box">
-            <div className="img_box">
-              <img src="./images/c-icon04.png" alt="" />
-            </div>
-            <h4 className="sub_head">
-              <span>Instagram</span> <span>LinkedIn</span> <span>Facebook</span>
-            </h4>
+          <div className='box-size'>
+            <img src="/instra.png" alt="not found"/>
+            <p>Instagram LinkedIn Facebook</p>
+            <img src='/arrow.png' className='arrow'/>
           </div>
-        </div>
-      </section>
+        </section>   
 
-      <section id="contact_part-three">
-        <div className="container">
-          <div className="contact_three-wrapper">
-            <div className="top_box-01">
-              <h1 className="head">Let's Connect</h1>
-              <p className="pera">
-                We're excited to connect with you and learn more about your real
-                estate goals. Use the form below to get in touch with Estatein.
-                Whether you're a prospective client, partner, or simply curious
-                about our services, we're here to answer your questions and
-                provide the assistance you need.
-              </p>
-            </div>
-            <div className="top_box-02">
-              <div>
-                <form action="">
-                  <input type="text" placeholder="Frist Name" />
-                  <input type="text" placeholder="Last Name" />
-                  <input type="email" placeholder="Email" />
-                  <br />
-                  <input type="number" placeholder="Phone" />
-                  <input type="submit" placeholder="Inquiry Type" />
-                  <input
-                    type="submit"
-                    placeholder="How Did You Hear About Us?"
-                  />
-                  <br />
-                  <textarea name="message" id="" cols="30" rows="10"></textarea>
-                  <br />
-                  <input type="text" />
-                  <button className="btn">Send Your Message</button>
-                </form>
+        <section id='contact_part_3'>
+          <div className='three-wrap container'>
+            <img src='/star.png'/>
+            <h3>Lets Connect</h3>
+            <p> Were excited to connect with you and learn more about your 
+              real estate goals. Use the form below to get in touch with Estatein. Whether youre a
+               prospective client, partner, or simply curious about our services, were here to answer your questions and provide
+               the assistance you need.</p>
+          </div>
+
+          <div className="form_box container">
+            <div className="form-wrap ">
+              <div className="form_wrapper">
+                <div className="form">
+                  <label>First Name</label>
+                  <input type="text"  name="firstname" placeholder="Your name.."/>
+                </div>
+                <div className="form">
+                  <label>First Name</label>
+                  <input type="text"  name="firstname" placeholder="Your name.."/>
+                </div>
+
+      
+              
               </div>
+
+              <div className="form_wrapper">
+                <div className="form">
+                  <label>First Name</label>
+                  <input type="text"  name="firstname" placeholder="Your name.."/>
+                </div>
+                <div className="form">
+                  <label>First Name</label>
+                  <input type="text"  name="firstname" placeholder="Your name.."/>
+                </div>
+
+      
+              
+              </div>
+
+              <div className="form_wrapper">
+                <div className="form">
+                  <label>First Name</label>
+                  <input type="text"  name="firstname" placeholder="Your name.."/>
+                </div>
+                <div className="form">
+                  <label>First Name</label>
+                  <input type="text"  name="firstname" placeholder="Your name.."/>
+                </div>
+
+      
+              
+              </div>
+
+            </div>
+              <div className="form massagebox">
+                <label>First Name</label>
+                <input type="text"  name="firstname" placeholder="Your name.."/>
+              </div>
+          </div>
+        </section> 
+
+        <section id="conatct_part_4">
+          <div className='three-wrap container'>
+            
+              <img src='/star.png'/>
+              <h3>Discover Our Office Locations</h3>
+              <p>Estatein is here to serve you across multiple locations. Whether youre looking to meet our team, discuss 
+                real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs.
+                 Explore the categories below to find the Estatein office nearest to you.</p>
+          </div>
+          <div className="container contact_btn_wrap">
+            <button className="contact_btn"> All</button>
+            <button className="contact_btn"> All</button>
+            <button className="contact_btn"> All</button>
+          </div>
+
+          <div className="location_box_wrap container">
+            <div className="location_box">
+             <p className="main">Main Headquarters</p>
+              <h3>123 Estatein Plaza, City Center, Metropolis</h3>
+              <p className="our">Our main headquarters serve as the heart of Estatein. Located in the bustling city center, this is where our 
+                core team of experts operates, driving the excellence and innovation that define us.</p>
+
+                <div>
+                  <div className="location_btn">
+                    <button>info@estatein.com</button>
+                    <button>+1 (123) 456-7890</button>
+                    <button>Metropolis</button>
+                  </div>
+                </div>
+                <button className="get_btn">Get Direction</button>
+            </div>
+            
+            <div className="location_box">
+             <p className="main">Regional Offices</p>
+              <h3>456 Urban Avenue, Downtown District, Metropolis</h3>
+              <p className="our">Estatein's presence extends to multiple regions, each with its own dynamic real 
+                estate landscape. Discover our regional offices, staffed by local experts who understand the nuances of their respective markets.</p>
+
+                <div>
+                  <div className="location_btn">
+                    <button>info@estatein.com</button>
+                    <button>+1 (123) 456-7890</button>
+                    <button>Metropolis</button>
+                  </div>
+                </div>
+                <button className="get_btn">Get Direction</button>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="contact_part-four">
-        <div className="container">
-          <div className="contact_four-wrapper">
-            <div className="top_box-01">
-              <h1 className="head">Discover Our Office Locations</h1>
-              <p className="pera">
-                Estatein is here to serve you across multiple locations. Whether
-                you're looking to meet our team, discuss real estate
-                opportunities, or simply drop by for a chat, we have offices
-                conveniently located to serve your needs. Explore the categories
-                below to find the Estatein office nearest to you
-              </p>
-            </div>
-            <div className="top_box-02"></div>
-          </div>
-        </div>
-      </section>
 
-      <section id="contact_part-five">
-        <div className="container">
-          <div className="contact_five-wrapper">
-            <div className="img_box-02">
-              <div>
-                <img src="./images/Image1.png" alt="" />
-              </div>
-              <div>
-                <img src="./images/Image2.png" alt="" />
-              </div>
-            </div>
-            <div className="img_box-02">
-              <div>
-                <img src="./images/Image3.png" alt="" />
-              </div>
-              <div>
-                <img src="./images/Image4.png" alt="" />
-              </div>
-              <div>
-                <img src="./images/Image5.png" alt="" />
-              </div>
-            </div>
-            <div className="img_box-02">
-              <div>
-                <h1 className="head">Explore Estatein's World</h1>
-                <p className="pera">
-                  Step inside the world of Estatein, where professionalism meets
-                  warmth, and expertise meets passion. Our gallery offers a
-                  glimpse into our team and workspaces, inviting you to get to
-                  know us better.
-                </p>
-              </div>
-              <div>
-                <img src="./images/Image6.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      </div>
+      
+      </>
+  )
+}
 
-      <section id="contact_part-six">
-        <div className="container">
-          <div className="contact_six-wrapper">
-            <div className="left_part">
-              <h1 className="head">Start Your Real Estate Journey Today</h1>
-              <p className="pera">
-                Welcome to Estatein, where your real estate aspirations meet
-                expert guidance. Explore our comprehensive range of services,
-                each designed to cater to your unique needs and dreams.
-              </p>
-            </div>
-            <div className="right_part">
-              <button className="btn">Explore Properties</button>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  );
-};
+export default Contact
 
-export default Contact;

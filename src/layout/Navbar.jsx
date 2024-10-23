@@ -24,6 +24,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
+                <NavLink className="nav_link" to="/contact">
+                 Conatct
+                </NavLink>
+              </li>
+              <li>
                 <NavLink className="nav_link" to="/properties">
                   Properties
                 </NavLink>
